@@ -55,7 +55,7 @@
   
   ```mermaid
   graph LR
-    A[Node.js] --> B[Discord.js v14]
+    A[python] --> B[Discord.py]
     B --> C[Lavalink]
     C --> D[Audio Engine]
     D --> E[YouTube]
@@ -66,10 +66,15 @@
     H --> J[Playlists]
     B --> K[Redis Cache]
     B --> L[Web Dashboard]
-    style A fill:#68EE68,stroke:#333
+    style A fill:#128B79,stroke:#333
     style B fill:#EE6868,stroke:#333
     style C fill:#6895EE,stroke:#333
     style D fill:#EE68EE,stroke:#333
+    style B fill:#032E45,stroke:#333
+    style H fill:#47648F,stroke:#333
+    style H fill:#EE68EE,stroke:#333
+    style B fill:#47648F,stroke:#333
+    style B fill:#EE68EE,stroke:#333
   ```
 
 </div>
